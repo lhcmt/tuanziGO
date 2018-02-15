@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{c8b6da47-b6bf-40a8-b4df-ffda57355191}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f820e1dc-459f-4a49-8c1f-d9d9e500419e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{832bd587-3ad8-47fd-a1ff-b6115486a80d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DEMO.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\blank.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font.fnt" />
+    <None Include="..\Resources\font.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Info.plist" />
+    <None Include="..\Resources\iTunesArtwork" />
+    <None Include="..\Resources\sprite_sheet.plist" />
+    <None Include="..\Resources\sprite_sheet.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\hero_block.plist" />
+    <None Include="..\Resources\hero_block.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bg2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mainmenu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui_level.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui_level.plist" />
+    <None Include="..\Resources\r_botton.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\start_n.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\start_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\l_botton.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bg3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\again.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\die.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\jump.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\win.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\win.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bgm.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mbgm.mp3">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DEMO.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuSence.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseLV.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCGameScrollView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RunLevel1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RunLevel2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RunLevel3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuSence.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseLV.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCGameScrollView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RunLevel1.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RunLevel2.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RunLevel3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
